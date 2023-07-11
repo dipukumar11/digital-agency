@@ -1,0 +1,80 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+.hed{
+    background-color: gray;
+}
+.hed-main-section{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.nav-section {
+display: flex;
+align-items: center;
+
+}
+.nav-section li{
+    list-style: none;
+    text-decoration: none;
+    justify-items: center;
+    margin:20px;
+    
+    
+    
+}
+.nav-section a{
+    Color:white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+.nav-section li:hover{
+background-color:tomato;
+
+
+}
+.agency-cection{
+    height: 100vh;
+    background-image:
+    linear-gradient(to bottom, rgba(43, 50, 92, 0.52), rgba(67, 82, 61, 0.73)),url("image/background.jpg");
+align-items: center;
+
+}
+.content-section{
+    text-align: center;
+    margin:auto;
+    padding-top:200px;
+
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.descripton{
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    padding: 12px 20px;
+    border: none;
+}
+
+.btn a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(5, 0, 0);
+}
+.bg-primary {
+    background-color: red;
+    color: white;
+}
