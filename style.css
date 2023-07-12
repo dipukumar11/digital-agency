@@ -144,3 +144,27 @@ width: 50px;
     color: black;
     border-radius: 5px;
 }
+.img img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    
+}
+.img{
+    display: flex;
+    border-right: 5px solid red;
+    width:40%;
+}
+.img-right{
+    margin-top: 20px;
+    display: flex;
+
+}
+.img p{
+    margin-left: 10px;
+}
+.buttn{
+   
+    margin:auto;
+    align-items: center;
+}
